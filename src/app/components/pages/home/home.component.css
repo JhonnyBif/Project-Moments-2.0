@@ -1,0 +1,72 @@
+.home_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #444;
+}
+
+.home_container h1 {
+  margin-bottom: .7em;
+}
+
+.moments_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.moment {
+  width: 75%;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.moment img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.moment h3,
+.moment p {
+  margin-bottom: 0.6em;
+}
+
+.moment .date {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+a {
+  color: #dce129;
+  padding: .3em .6em;
+  border-radius: .3em;
+}
+
+a:hover {
+  background-color: #f4f4f4;
+}
+
+.search_container{
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+.search_container form{
+  width: 30%;
+  position: relative;
+}
+
+.search_container fa-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.search_container input {
+  padding: .5em;
+  width: 100%;
+  text-align: center;
+}

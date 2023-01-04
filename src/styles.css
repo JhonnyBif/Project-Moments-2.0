@@ -18,26 +18,26 @@ a:hover {
 
 /* FORM */
 form {
-  width: 450px;
+  width: 65%;
   margin: 0 auto;
 }
 
-.form-group {
+.form_group {
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
   color: #444;
 }
 
-.form-group label {
+.form_group label {
   font-weight: bold;
   font-size: 0.9em;
   margin-bottom: 0.4em;
   color: #444;
 }
 
-.form-group input,
-.form-group textarea {
+.form_group input,
+.form_group textarea {
   padding: 0.6em;
   color: #777;
   font-size: 0.8em;
@@ -65,4 +65,37 @@ input[type="submit"]:hover {
   margin-top: .4em;
   border-left: 2px solid #dc3545;
   padding-left: 0.2em;
+}
+
+/* Butons */
+.edit_btn,
+.remove_btn{
+  border: 1px solid #efefef;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.4s;
+}
+button fa-icon, a fa-icon{
+  margin-right: 0.2em;
+}
+
+.edit_btn, .edit_btn path{
+  border-color: #007BFF;
+  color:#007BFF;
+}
+.edit_btn:hover, .edit_btn:hover path{
+  background-color: #007BFF;
+  color:#fff;
+}
+
+.remove_btn, .remove_btn path{
+  border-color: #dc3545;
+  color:#dc3545;
+}
+.remove_btn:hover, .remove_btn:hover path{
+  background-color: #dc3545;
+  color:#fff;
 }
